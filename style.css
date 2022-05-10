@@ -16,13 +16,43 @@
 
 .navbar {
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
 .navbar-flex  li {
+    margin-right: auto;
     display: inline-block;
-    
+    padding: 1em;
+}
+
+.navbar-flex a{
+    text-decoration: none;
+}
+
+.navbar {
+    list-style-type: none;
+}
+
+.navbar img {
+    padding: 1.5em;
+}
+
+.navbar-btn {
+    margin-left: auto;
+    padding: 1.5em;
+}
+
+.btn-primary {
+    padding: 1em;
+    outline: none;
+}
+
+#login-btn {
+    margin-left: 1em;
+}
+
+#register-btn {
+    margin-left: 1em;
 }
 
 
