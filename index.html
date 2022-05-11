@@ -6,6 +6,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link href = "style.css" rel = "stylesheet" type = "text/css">
+  <script src="main.js"></script>
   <title>Frontend Mentor | Intro section with dropdown navigation</title>
 
 </head>
@@ -15,8 +16,26 @@
   <nav class = "navbar">
     <a href = "#"><img src = "images/logo.svg" alt = "company logo"></a>
     <ul class = "navbar-flex">
-      <li><a href = "#">Features <svg width="10" height="6" xmlns="http://www.w3.org/2000/svg"><path stroke="#686868" stroke-width="1.5" fill="none" d="m1 1 4 4 4-4"/></svg></a></li>
-      <li><a href = "#">Company <svg width="10" height="6" xmlns="http://www.w3.org/2000/svg"><path stroke="#686868" stroke-width="1.5" fill="none" d="m1 1 4 4 4-4"/></svg></a></li>
+      <li><a href = "#">Features <svg width="10" height="6" xmlns="http://www.w3.org/2000/svg"><path stroke="#686868" stroke-width="1.5" fill="none" d="m1 1 4 4 4-4"/></svg></a>
+      <!-- Features dropdown menu-->
+      <div class = "dropdown">
+      <ul class = "navbar-dropdown">
+        <li href = "#">Todo List</li>
+        <li href = "#">Calendars</li>
+        <li href = "#">Reminders</li>
+        <li href = "#">Planning</li>
+      </ul>
+      </div>
+      </li>
+      <li><a href = "#">Company <svg width="10" height="6" xmlns="http://www.w3.org/2000/svg"><path stroke="#686868" stroke-width="1.5" fill="none" d="m1 1 4 4 4-4"/></svg></a>
+      <!-- Company dropdown menu-->
+      
+      <ul class = "navbar-dropdown">
+        <li href = "#">History</li>
+        <li href = "#">Our Team</li>
+        <li href = "#">Blog</li>
+      </ul>
+      </li>
       <li><a href = "#">Careers</a></li>
       <li><a href = "#">About</a></li>
     </ul>
