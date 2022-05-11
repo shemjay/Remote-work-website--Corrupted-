@@ -92,8 +92,15 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Stackoverflow align-an-element-to-bottom-with-flexbox](https://stackoverflow.com/questions/31000885/align-an-element-to-bottom-with-flexbox) - This helped me know how to use margin auto a lot better especially for positioning items within flex.
+
+- [MND Docs object-fit](https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit) - The documentation on object fit helped me understand how to resize images in divs.
+
+- [SVG images W3schools](https://www.w3schools.com/graphics/svg_intro.asp) - [SVG images W3schools](https://developer.mozilla.org/en-US/docs/Web/SVG) - These two sites helped me understand SVG images better
+
+ - [Stackoverflow main tag](https://stackoverflow.com/questions/44803962/main-tag-as-a-column-wrapper) - This helped me understand the main tag use in html
+
+- [Stackoverflow main tag](https://stackoverflow.com/questions/25225682/difference-between-width100-and-width100vw) - I could understand  the differnce bewteen 100vw and 100% thanks to this resource.
 
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
@@ -107,6 +114,6 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+Thanks to Shubham Mistry for helping me out on stackoverflow when i asked a question.
 
 **Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**

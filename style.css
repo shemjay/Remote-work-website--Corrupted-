@@ -26,7 +26,12 @@
 }
 
 .navbar-flex a{
+    color: hsl(0, 0%, 41%);
     text-decoration: none;
+}
+
+.navbar-flex a:hover {
+    color :hsl(0, 0%, 8%);
 }
 
 .navbar li{
@@ -34,7 +39,7 @@
 }
 
 .navbar img {
-    padding: 1.5em;
+    padding: 1.5em 1em 1em 2em;
 }
 
 .navbar-btn {
@@ -42,17 +47,36 @@
     padding: 1.5em;
 }
 
+/* Styles for both buttons in the navbar */
 .btn-primary {
-    padding: 1em;
+    color: hsl(0, 0%, 41%);
     outline: none;
+    padding: 0.5em;
+    margin-left: 1em;
+    cursor: pointer;
 }
 
+.btn-primary:hover {
+    color: hsl(0, 0%, 8%);
+}
+
+/* Styles for login button in the navbar */
 #login-btn {
-    margin-left: 1em;
+    border: none;
+    background: none;
 }
 
+/* Styles for register button in the navbar */
 #register-btn {
-    margin-left: 1em;
+    padding: 0.8em;
+    border-radius: 10px;
+    background: none;
+    border-color: hsl(0, 0%, 41%);
+    border-width: 2px;
+}
+
+.register-btn:hover {
+    border-color: hsl(0, 0%, 8%);
 }
 
 /* Container for the whole body content and hero image*/
@@ -69,7 +93,8 @@
 
 /* Container for the body copy and SVG images*/
 .body-content-wrapper {
-    height: 70%;
+    margin-top: auto;
+    height: 85%;
     width: 100%;
 }
 
@@ -80,11 +105,13 @@
     object-fit: contain;
 }
 
+/* Styles the hero image */
 .hero-image-wrapper img{
     width: 100%;
     height: 100%;
 }
 
+/* Styles the heading in the body */
 .title {
     font-weight: 700;
     color: hsl(0, 0%, 8%);
@@ -92,6 +119,7 @@
     padding-bottom: 0.5em;
 }
 
+/* Styles the body paragraph */
 .body-copy {
     font-weight: 500;
     color: hsl(0, 0%, 41%);
@@ -99,6 +127,7 @@
     padding-bottom: 2.5em;
 }
 
+/* Styles button in body copy */
 .btn-btn-secondary {
     padding: 1em;
     cursor: pointer;
@@ -106,8 +135,22 @@
     color: hsl(0, 0%, 98%);
     outline: none;
     border-radius: 10px;
-    margin-bottom: 4.5em;
+    margin-bottom: 5em;
+    border: none;
 }
+
+/* Container for body logo svgs */
+.main-content-logos {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-logo {
+    width: 4em;
+    object-fit: contain;
+}
+
 
 
 
