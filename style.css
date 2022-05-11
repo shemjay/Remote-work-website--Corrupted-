@@ -58,9 +58,10 @@
 /* Container for the whole body content and hero image*/
 .main-content-wrapper {
     margin: auto;
+    margin-top: 1em;
     padding-bottom: 3em;
-    height: 83%;
-    width: 80%;
+    height: 80%;
+    width: 70%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -68,14 +69,13 @@
 
 /* Container for the body copy and SVG images*/
 .body-content-wrapper {
-    margin-right: 2em;
-    height: 100%;
+    height: 70%;
     width: 100%;
 }
 
 /* Container for the hero image */
 .hero-image-wrapper {
-    width: 100%;
+    width: 70%;
     height: 100%;
     object-fit: contain;
 }
@@ -89,7 +89,7 @@
     font-weight: 700;
     color: hsl(0, 0%, 8%);
     font-size: 4rem;
-    padding-bottom: 1em;
+    padding-bottom: 0.5em;
 }
 
 .body-copy {
@@ -106,7 +106,7 @@
     color: hsl(0, 0%, 98%);
     outline: none;
     border-radius: 10px;
-    margin-bottom: 9em;
+    margin-bottom: 4.5em;
 }
 
 
