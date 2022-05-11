@@ -57,9 +57,10 @@
 
 /* Container for the whole body content and hero image*/
 .main-content-wrapper {
-    height: 70%;
-    width: 100%;
-    border: 2px solid;
+    margin: auto;
+    padding-bottom: 3em;
+    height: 83%;
+    width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -67,22 +68,45 @@
 
 /* Container for the body copy and SVG images*/
 .body-content-wrapper {
+    margin-right: 2em;
     height: 100%;
     width: 100%;
-    border: 2px solid;
 }
 
 /* Container for the hero image */
 .hero-image-wrapper {
-    border: 2px solid red;
     width: 100%;
     height: 100%;
-    object-fit: fill;
+    object-fit: contain;
 }
 
 .hero-image-wrapper img{
     width: 100%;
     height: 100%;
+}
+
+.title {
+    font-weight: 700;
+    color: hsl(0, 0%, 8%);
+    font-size: 4rem;
+    padding-bottom: 1em;
+}
+
+.body-copy {
+    font-weight: 500;
+    color: hsl(0, 0%, 41%);
+    font-size: 1rem;
+    padding-bottom: 2.5em;
+}
+
+.btn-btn-secondary {
+    padding: 1em;
+    cursor: pointer;
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 98%);
+    outline: none;
+    border-radius: 10px;
+    margin-bottom: 9em;
 }
 
 
