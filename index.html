@@ -16,11 +16,11 @@
   <nav class = "navbar">
     <a href = "#"><img src = "images/logo.svg" alt = "company logo"></a>
     <ul class = "navbar-flex">
+
       <li><a href = "#">Features </a> 
-      
       <!-- Features dropdown menu-->
       <div class = "dropdown">
-      <button class = "dropdown-arrow">
+      <button onclick="myFunction()" class = "dropdown-arrow">
         <svg class = "drop-image" svg width="10" height="6" xmlns="http://www.w3.org/2000/svg"><path stroke="#686868" stroke-width="1.5" fill="none" d="m1 1 4 4 4-4"/></svg>
       </button>
       <ul class = "dropdown-content">
@@ -33,19 +33,19 @@
       </li>
       
       <li><a href = "#">Company </a>
-        <button class = "dropdown-arrow">
-          <svg class = "drop-image" width="10" height="6" xmlns="http://www.w3.org/2000/svg"><path stroke="#686868" stroke-width="1.5" fill="none" d="m1 1 4 4 4-4"/></svg>
-        </button>
       <!-- Company dropdown menu-->
       <div class = "dropdown">
-      <ul class = "dropdown-content">
+      <button onclick="myFunction()" class = "dropdown-arrow">
+        <svg class = "drop-image" width="10" height="6" xmlns="http://www.w3.org/2000/svg"><path stroke="#686868" stroke-width="1.5" fill="none" d="m1 1 4 4 4-4"/></svg>
+      </button>
+      <ul id = "my-dropdown" class = "dropdown-content">
         <li><a class = "dropdown-links" href = "#">History</a></li>
         <li><a class = "dropdown-links" href = "#">Our Team</a></li>
         <li><a class = "dropdown-links" href = "#">Blog</a></li>
       </ul>
       </div>
       </li>
-      
+
       <li><a href = "#">Careers</a></li>
       <li><a href = "#">About</a></li>
     </ul>
