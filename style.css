@@ -53,9 +53,11 @@
 }
 
 .dropdown-content {
-    display: none;
+    /*display: none;*/
     position: absolute;
+    top: 0;
     min-width: 160px;
+    min-height: 160px;
     z-index: 1;
 }
 
@@ -64,6 +66,10 @@
     display: block;
     padding: 1em;
     color: hsl(0, 0%, 8%);
+}
+
+.dropdown-links:hover {
+    background-color: hsl(0, 0%, 98%);
 }
 
 /* Styles for both buttons in the navbar */
