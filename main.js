@@ -22,3 +22,14 @@ links.forEach((el, i) => {
   }
 
 })
+
+
+function open(el, arrow) {
+  el.classList.add("show")
+  arrow.classList.add("rotate")
+}
+
+function close(el, arrow) {
+  el.classList.remove("show")
+  arrow.classList.remove("rotate")
+}
