@@ -6,7 +6,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link href = "style.css" rel = "stylesheet" type = "text/css">
-  <script type="text/javascript" src="main.js"></script>
+  <script type="text/javascript" src="main.js" defer></script>
   <title>Frontend Mentor | Intro section with dropdown navigation</title>
 
 </head>
@@ -17,14 +17,13 @@
       <a href="#"><img src="images/logo.svg" alt="company logo"></a>
       <ul class="navbar-flex">
   
-        <li>
+        <li class>
           <a href="#">Features </a>
           <button class="dropdown-arrow">
-              <svg class = "drop-image" svg width="10" height="6" xmlns="http://www.w3.org/2000/svg"><path stroke="#686868" stroke-width="1.5" fill="none" d="m1 1 4 4 4-4"/></svg>
+              <svg svg width="10" height="6" xmlns="http://www.w3.org/2000/svg"><path stroke="#686868" stroke-width="1.5" fill="none" d="m1 1 4 4 4-4"/></svg>
             </button>
           <!-- Features dropdown menu-->
           <div class="dropdown">
-  
             <ul class="dropdown-content">
               <li><a class="dropdown-links" href="#">Todo List</a></li>
               <li><a class="dropdown-links" href="#">Calendars</a></li>
@@ -37,11 +36,11 @@
         <li>
           <a href="#">Company </a>
           <button class="dropdown-arrow">
-              <svg class = "drop-image" width="10" height="6" xmlns="http://www.w3.org/2000/svg"><path stroke="#686868" stroke-width="1.5" fill="none" d="m1 1 4 4 4-4"/></svg>
+              <svg width="10" height="6" xmlns="http://www.w3.org/2000/svg"><path stroke="#686868" stroke-width="1.5" fill="none" d="m1 1 4 4 4-4"/></svg>
             </button>
           <!-- Company dropdown menu-->
           <div class="dropdown">
-            <ul id="my-dropdown" class="dropdown-content">
+            <ul class="dropdown-content">
               <li><a class="dropdown-links" href="#">History</a></li>
               <li><a class="dropdown-links" href="#">Our Team</a></li>
               <li><a class="dropdown-links" href="#">Blog</a></li>
@@ -58,7 +57,7 @@
       <button class="btn-primary" id="register-btn">Register</button>
     </div>
   </nav>
-  
+
 <div class = "main-content-wrapper">
 <!-- This creates a wrapper around the entire body copy and hero image-->
 <div class = "body-content-wrapper">
@@ -91,6 +90,6 @@
     Coded by <a href="#">Shemjay</a>.
   </div>
 </div>
-
+<script type="text/javascript" src="main.js"></script>
 </body>
 </html>

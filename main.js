@@ -19,7 +19,7 @@ links.forEach((el, i) => {
         }
       }
     })
-  }
+  } 
 
 })
 
